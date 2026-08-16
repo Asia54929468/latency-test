@@ -12,25 +12,19 @@ import pyautogui
 # 参数配置区
 # ============================================================
 
-# 拖拽起始坐标
+# 拖拽起始、终点坐标
 START = (251, 132)
-
-# 拖拽终点坐标
 END = (900, 132)
 
-# 截图区域左上角坐标
+# 截图区域左上、右下角坐标
 REGION_TOP_LEFT = (330, 100)
-
-# 截图区域右下角坐标
 REGION_BOTTOM_RIGHT = (1000, 200)
 
 # 提前准备好的模板图片
 TEMPLATE_PATH = "template.jpeg"
 
-# 截图结果保存目录
+# 截图结果保存目录及文件名前缀
 OUTPUT_DIR = "output"
-
-# 输出文件名前缀
 OUTPUT_PREFIX = "match_result"
 
 # 重复次数
