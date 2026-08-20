@@ -13,12 +13,12 @@ import pyautogui
 # ============================================================
 
 # 拖拽起始、终点坐标
-START = (251, 132)
-END = (900, 132)
+START = (1960, 32)
+END = (2500, 32)
 
 # 截图区域左上、右下角坐标
-REGION_TOP_LEFT = (330, 100)
-REGION_BOTTOM_RIGHT = (1000, 200)
+REGION_TOP_LEFT = (2100, 0)
+REGION_BOTTOM_RIGHT = (2600, 100)
 
 # 提前准备好的模板图片
 TEMPLATE_PATH = "template.jpeg"
@@ -28,7 +28,7 @@ OUTPUT_DIR = "output"
 OUTPUT_PREFIX = "match_result"
 
 # 重复次数
-REPEAT_N = 8
+REPEAT_N = 5
 
 # 在起点到终点的 3/5 位置截图
 CAPTURE_RATIO = 3.0 / 5.0
@@ -49,7 +49,7 @@ PRESS_DELAY = 0.15
 RELEASE_DELAY = 0.10
 
 # 模板匹配最低置信度
-MATCH_THRESHOLD = 0.35
+MATCH_THRESHOLD = 0.75
 
 # 开始前等待时间
 START_DELAY = 3.0
